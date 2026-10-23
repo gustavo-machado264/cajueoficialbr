@@ -1,0 +1,11 @@
+CAJUE — SITE DEMONSTRATIVO
+Como usar:
+1. Extraia a pasta/ZIP.
+2. Abra index.html no navegador (ou use a extensão Live Server do VS Code).
+Funcionalidades: layout responsivo, carrossel? (vitrine de produtos filtrável), sacola com quantidades e subtotal, navegação mobile, CTA para Instagram.
+IMPORTANTE ANTES DE PUBLICAR:
+- Os preços são ilustrativos para demonstração.
+- Substitua o telefone ilustrativo no rodapé (index.html).
+- Substitua o número de WhatsApp de teste 5511999999999 em script.js pelo número oficial.
+- Confirme nomes, descrições, preços e disponibilidade dos produtos.
+As imagens da pasta assets foram extraídas do PDF enviado.

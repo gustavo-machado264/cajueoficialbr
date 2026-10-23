@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Cajue — beleza brasileira inspirada na natureza.">
+<title>Cajue | Beleza brasileira</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topline">BELEZA BRASILEIRA • INSPIRADA NA NATUREZA</div>
+<header class="header">
+  <a class="logo" href="#inicio" aria-label="Cajue início"><span>♧</span> cajue <small>BELEZA BRASILEIRA</small></a>
+  <button class="menu-toggle" aria-label="Abrir menu" id="menuToggle">☰</button>
+  <nav id="nav"><a href="#inicio">Início</a><a href="#produtos">Produtos</a><a href="#sobre">Nossa essência</a><a href="#contato">Contato</a></nav>
+  <button class="cart-button" id="openCart" aria-label="Abrir carrinho">Sacola <span id="cartCount">0</span></button>
+</header>
+<main>
+<section class="hero" id="inicio">
+ <div class="hero-copy"><p class="eyebrow">O cuidado que vem da natureza</p><h1>Mais que um perfume,<br><em>é a sua essência.</em></h1><p>Descubra uma rotina de cuidado inspirada na beleza e na riqueza natural do Brasil.</p><a class="button" href="#produtos">Descobrir produtos <span>↗</span></a><div class="hero-note">Cuidado • Natureza • Bem-estar</div></div>
+ <div class="hero-visual"><img id="heroSlide" src="assets/campanha.jpg" alt="Campanha Cajue com perfume e embalagem natural"><div class="round-stamp">BELEZA<br>QUE FLORESCE<br>DA NATUREZA</div><div class="carousel-controls"><button id="slidePrev" aria-label="Imagem anterior">←</button><div class="carousel-dots"><button class="dot active" data-slide="0" aria-label="Mostrar imagem 1"></button><button class="dot" data-slide="1" aria-label="Mostrar imagem 2"></button><button class="dot" data-slide="2" aria-label="Mostrar imagem 3"></button></div><button id="slideNext" aria-label="Próxima imagem">→</button></div></div>
+</section>
+<section class="benefits"><div>✳ <span>Inspirada na natureza</span></div><div>❋ <span>Rituais de autocuidado</span></div><div>✧ <span>Uma essência brasileira</span></div></section>
+<section class="products section" id="produtos">
+ <div class="section-heading"><div><p class="eyebrow">Escolhas Cajue</p><h2>Seu ritual, <em>do seu jeito.</em></h2></div><p>Pequenos momentos de cuidado que fazem toda a diferença.</p></div>
+ <div class="filters" role="group" aria-label="Filtrar produtos"><button class="filter active" data-filter="todos">Todos</button><button class="filter" data-filter="perfumes">Perfumes</button><button class="filter" data-filter="corpo">Corpo</button><button class="filter" data-filter="cabelos">Cabelos</button></div>
+ <div class="product-grid" id="productGrid">
+  <article class="product-card" data-category="perfumes"><div class="product-image"><span class="tag">Favorito</span><img src="assets/perfume.jpg" alt="Perfume Cajue em frasco dourado"></div><div class="product-info"><div><h3>Perfume Cajue</h3><p>Uma assinatura marcante</p></div><strong>R$ 100,00</strong></div><button class="add-button" data-id="perfume">Adicionar à sacola <span>＋</span></button></article>
+  <article class="product-card" data-category="corpo"><div class="product-image"><img src="assets/sabonete.jpg" alt="Sabonete vegetal Cajue"></div><div class="product-info"><div><h3>Sabonete Vegetal</h3><p>Limpeza suave e natural</p></div><strong>R$ 18,00</strong></div><button class="add-button" data-id="sabonete">Adicionar à sacola <span>＋</span></button></article>
+  <article class="product-card" data-category="cabelos"><div class="product-image"><img src="assets/shampoo.jpg" alt="Shampoo e condicionador Cajue"></div><div class="product-info"><div><h3>Dupla para Cabelos</h3><p>Shampoo + condicionador</p></div><strong>R$ 48,00</strong></div><button class="add-button" data-id="cabelos">Adicionar à sacola <span>＋</span></button></article>
+  <article class="product-card" data-category="corpo"><div class="product-image"><span class="tag">Novo</span><img src="assets/body-splash.jpg" alt="Body splash Cajue"></div><div class="product-info"><div><h3>Body Splash</h3><p>Frescor para todos os dias</p></div><strong>R$ 65,00</strong></div><button class="add-button" data-id="splash">Adicionar à sacola <span>＋</span></button></article>
+  <article class="product-card" data-category="corpo"><div class="product-image"><img src="assets/hidratante.jpg" alt="Hidratante corporal Cajue"></div><div class="product-info"><div><h3>Hidratante Corporal</h3><p>Toque macio e perfumado</p></div><strong>R$ 42,00</strong></div><button class="add-button" data-id="hidratante">Adicionar à sacola <span>＋</span></button></article>
+  <article class="product-card" data-category="perfumes"><div class="product-image"><img src="assets/kit-promocional.png" alt="Kit promocional Cajue"></div><div class="product-info"><div><h3>Kit Especial Cajue</h3><p>Um presente cheio de cuidado</p></div><strong>R$ 179,90</strong></div><button class="add-button" data-id="kit">Adicionar à sacola <span>＋</span></button></article>
+ </div>
+ <p class="demo-note">*Valores ilustrativos para demonstração do site. Confirme preços e disponibilidade com a marca.</p>
+</section>
+<section class="campaign"><div class="campaign-image"><img src="assets/promocao.jpg" alt="Campanha promocional Cajue"></div><div class="campaign-copy"><p class="eyebrow">Um presente para você</p><h2>Transforme o cuidado em <em>ritual.</em></h2><p>Encontre o aroma, a textura e os pequenos detalhes que combinam com você.</p><a class="text-link" href="#produtos">Explorar coleção <span>↗</span></a></div></section>
+<section class="about section" id="sobre"><p class="eyebrow">Nossa essência</p><h2>Da natureza brasileira<br>para o seu <em>dia a dia.</em></h2><p>A Cajue celebra uma beleza leve, autêntica e conectada à natureza. Uma experiência de autocuidado feita para acompanhar você em cada momento.</p><div class="about-values"><span>01 — Essência</span><span>02 — Cuidado</span><span>03 — Natureza</span></div></section>
+<section class="newsletter"><div><p class="eyebrow">Fique por perto</p><h2>Novidades com a essência Cajue.</h2><p>Acompanhe nossos lançamentos e novidades nas redes sociais.</p></div><a class="button light" href="https://www.instagram.com/cajueoficialbr/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener">Seguir no Instagram ↗</a></section>
+</main>
+<footer id="contato"><div class="footer-brand"><a class="logo" href="#inicio"><span>♧</span> cajue <small>BELEZA BRASILEIRA</small></a><p>Beleza brasileira, inspirada na natureza.</p></div><div><h4>Explore</h4><a href="#produtos">Produtos</a><a href="#sobre">Nossa essência</a></div><div><h4>Fale com a gente</h4><p>Telefone: <strong>adicione o número oficial</strong></p><a href="https://www.instagram.com/cajueoficialbr/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener">@cajueoficialbr ↗</a><small>Atualize este contato antes de publicar o site.</small></div><div class="copyright">© 2026 Cajue. Site demonstrativo. Todos os direitos reservados.</div></footer>
+<div class="overlay" id="overlay"></div><aside class="cart-panel" id="cartPanel" aria-label="Sacola de compras" aria-hidden="true"><div class="cart-head"><div><p class="eyebrow">Sua seleção</p><h2>Sacola <span id="cartTitleCount">(0)</span></h2></div><button id="closeCart" class="close-cart" aria-label="Fechar carrinho">×</button></div><div id="cartItems" class="cart-items"><div class="empty-cart">Sua sacola está vazia.<br><span>Escolha seus favoritos para começar.</span></div></div><div class="cart-bottom"><div class="subtotal"><span>Subtotal</span><strong id="subtotal">R$ 0,00</strong></div><button class="button checkout" id="checkout">Finalizar pelo WhatsApp ↗</button><small>Checkout demonstrativo. Confirme o número oficial antes de publicar.</small></div></aside>
+<div class="toast" id="toast" role="status"></div>
+<script src="script.js"></script>
+</body></html>
